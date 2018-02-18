@@ -11,7 +11,7 @@ services:
         networks:
             - web
     php:
-        build: .
+        build: ./docker/
         volumes:
             - ./web:/var/www/html
         networks:
